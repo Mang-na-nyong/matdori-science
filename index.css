@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.content {
+    margin-left: 220px; /* 사이드바 폭 + 여백 */
+    padding: 20px;
+    width: calc(100% - 220px); /* 전체 화면에서 사이드바 폭을 제외한 부분 */
+    overflow-y: auto;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.content h2 {
+    margin-top: 0;
+}
