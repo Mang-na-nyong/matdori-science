@@ -21,7 +21,7 @@ body{
     text-decoration-line: none;
     text-shadow: 3px 3px rgb(209, 202, 202);
     position:relative;
-    top:0px;
+    top:10px;
     left:10px;
 }
 
@@ -30,7 +30,7 @@ body{
     font-weight: 600;
     position: relative;
     left: 1310px;
-    top:10px;
+    top:13px;
     color:rgb(0, 0, 0);
     text-decoration-line: none;
 }
