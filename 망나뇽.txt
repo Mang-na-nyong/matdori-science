@@ -1,0 +1,18 @@
+https://mang-na-nyong.github.io/matdori-science/
+
+<a href="https://www.freepik.com/free-vector/scientific-formulas-chalkboard_7458753.htm#fromView=search&page=1&position=0&uuid=28e5bfaf-d418-4ea6-bc09-ab8743b50cf1">Image by freepik</a>
+
+function check(){
+    var password;
+    password=prompt("비밀번호를 입력하세요")
+    if (password==15976348){
+    }
+    else{
+    alert("비밀번호가 틀렸습니다")
+    }
+}
+
+
+
+76389514
+130504231234
